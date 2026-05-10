@@ -30,10 +30,10 @@ na podstawie testów.
 ## Jak to działa?
 * **Język:** C++ (Standard C++11  lub nowsza)
 * **Biblioteki:** *`<iostream>`,`<cstdlib>`,`<ctime>`- podstawowa logika, wejście/wyjście oraz losowanie danych
-*`<fstream>`- zapisywanie wyników testów do pliku bazodanowego `.csv`
-*`<chrono>`- precyzyjny pomiar czasu wykonania algorytmów
-*`<windows.h>`- funkcje opóniające działanie i czyszczące ekran
-*`<clocale>`- obsługa polskich znaków
+*  `<fstream>`- zapisywanie wyników testów do pliku bazodanowego `.csv`
+*  `<chrono>`- precyzyjny pomiar czasu wykonania algorytmów
+*  `<windows.h>`- funkcje opóniające działanie i czyszczące ekran
+*  `<clocale>`- obsługa polskich znaków
 
 ## Jak uruchomić program?
 1. Pobierz plik źródłowy projektu `QuickSort.cpp`.
