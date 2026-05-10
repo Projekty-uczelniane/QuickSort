@@ -131,16 +131,16 @@ int main()
     do
     {
         system("cls");
-        cout<<"-------------------------------------------Wyb髍 QuickSorta-------------------------------------------"<<endl;
+        cout<<"-------------------------------------------Wyb贸r QuickSorta-------------------------------------------"<<endl;
         cout<<"1-QuickSortRight"<<endl;
         cout<<"2-QuickSortRandom"<<endl;
         cout<<"3-QuickSortMediana"<<endl;
         cout<<"0-Koniec programu"<<endl;
-        cout<<"Wyb髍:"<<endl;
+        cout<<"Wyb贸r:"<<endl;
 
         while(!(cin>>wybor))
         {
-            cout<<"B酬dne dane.Spr骲uj jeszcze raz";
+            cout<<"B艂臋dne dane.Spr贸buj jeszcze raz";
             cin.clear();
             cin.ignore(1000,'\n');
         }
@@ -152,7 +152,7 @@ int main()
 
         if (wybor<1 || wybor>3)
         {
-            cout<<"\nNieznana opcja.Spr骲uj ponownie."<<endl;
+            cout<<"\nNieznana opcja.Spr贸buj ponownie."<<endl;
             Sleep(1500);
             continue;
         }
@@ -182,16 +182,16 @@ int main()
         do
         {
             system("cls");
-            cout<<"-------------------------------------------Wyb髍 wype硁ienia tablicy-------------------------------------------"<<endl;
+            cout<<"-------------------------------------------Wyb贸r wype艂nienia tablicy-------------------------------------------"<<endl;
             cout<<"1-Losowa tablica"<<endl;
             cout<<"2-Posortowana tablica"<<endl;
-            cout<<"3-Du縜 liczba duplikat體 w tablicy"<<endl;
+            cout<<"3-Du偶a liczba duplikat贸w w tablicy"<<endl;
             cout<<"0-Zmiana rodzaju QuickSorta"<<endl;
-            cout<<"Wyb髍:"<<endl;
+            cout<<"Wyb贸r:"<<endl;
 
             while(!(cin>>wybor1) || wybor1<0 || wybor1>3)
             {
-                cout<<"B酬dne dane.Spr骲uj jeszcze raz";
+                cout<<"B艂臋dne dane.Spr贸buj jeszcze raz";
                 cin.clear();
                 cin.ignore(1000,'\n');
             }
@@ -217,7 +217,7 @@ int main()
 
             case 3:
             {
-                Plik<<"Du縜 liczba duplikat體 w tablicy"<<std::endl;
+                Plik<<"Du偶a liczba duplikat贸w w tablicy"<<std::endl;
                 break;
             }
 
@@ -267,7 +267,7 @@ int main()
                 delete[] tab;
             }
 
-            cout<<"Testy zako馽zone. Wyniki mo縩a znale熸 w dane1.csv"<<endl;
+            cout<<"Testy zako艅czone. Wyniki mo偶na znale藕膰 w dane1.csv"<<endl;
             Sleep(2500);
         }
         while(wybor1!=0);
